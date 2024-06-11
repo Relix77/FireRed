@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 200vh;
+    background-color: var(--color-4); 
+    font-family: "Exo 2", sans-serif;
+}
+
+body div.banner{
+  position: fixed;
+  margin-left: 4%;
+  margin-top: -60px;
+}
+
+:root{
+    --color-1: rgb(211, 45, 45);
+    --color-2: #000000;
+    --color-3: #ffffff;
+    --color-4: #f7761a;
+}
+
+nav.menu{
+    width: 70px;
+    height: 100%;
+    background-color: var(--color-1);
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 var(--color-4);  
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+nav.menu.expb{
+    width: 300px;
+}
+
+.exp-b{
+    width: 100%;
+    padding-left: 1px ;
+}
+
+.exp-b > i{
+    color: var(--color-2);
+    font-size: 40px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+ 
+}
+
+ul li.i-m{
+    transition: .5s;
+}
+
+ul li.ativo{
+    background-color: var(--color-4);
+}
+
+ul li.i-m:hover{
+    background: var(--color-4);
+    
+}
+
+ul li.i-m a{
+    color: var(--color-2);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height:40px;   
+}
+
+ul li.i-m a .txt-link{
+    margin-left: 70px ;
+    transition: .5s;
+    opacity: 0;
+}
+
+nav.menu.expb .txt-link{
+    margin-left: 40px;
+    opacity: 1;
+}
+
+ul li.i-m a .icon > i{
+    font-size: 40px;
+    margin-left: 0px;
+}
+
+.pie{
+    width: 400px;
+}
+
+div.pierre{
+    height: 250px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #696969;
+}
+
+div .pierre img{
+    width: 170px;
+    height: 170px;
+    margin-top: 40px;
+    margin-left: -15px;
+}
+
+div .pierre h1{
+    margin-top: -200px;
+    text-align: center;
+}
+
+div .pierre p{
+    margin-left: 130px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+div.ondine{
+    height: 250px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #2256ff;
+}
+
+div .ondine img{
+    width: 170px;
+    height: 170px;
+    margin-top: 40px;
+    margin-left: -15px;
+}
+
+div .ondine h1{
+    margin-top: -200px;
+    text-align: center;
+}
+
+div .ondine p{
+    margin-left: 130px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+div.majorbob{
+    height: 250px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #fcd701;
+}
+
+div .majorbob img{
+    width: 170px;
+    height: 170px;
+    margin-top: 40px;
+    margin-left: -15px;
+}
+
+div .majorbob h1{
+    margin-top: -200px;
+    text-align: center;
+}
+
+div .majorbob p{
+    margin-left: 130px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+div.erika{
+    height: 250px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #12b60f;
+}
+
+div .erika img{
+    width: 170px;
+    height: 170px;
+    margin-top: 40px;
+    margin-left: -15px;
+}
+
+div .erika h1{
+    margin-top: -200px;
+    text-align: center;
+}
+
+    div .erika p{
+    margin-left: 130px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+div.koga{
+    height: 250px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #920ba7;
+}
+
+div .koga img{
+    width: 170px;
+    height: 170px;
+    margin-top: 40px;
+    margin-left: -15px;
+}
+
+div .koga h1{
+    margin-top: -200px;
+    text-align: center;
+}
+
+div .koga p{
+    margin-left: 130px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+div.Morgana{
+    height: 250px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #dc027a;
+}
+
+div .Morgana img{
+    width: 170px;
+    height: 170px;
+    margin-top: 40px;
+    margin-left: -15px;
+}
+
+div .Morgana h1{
+    margin-top: -200px;
+    text-align: center;
+}
+
+div .Morgana p{
+    margin-left: 130px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+div.Auguste{
+    height: 250px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #f8511e;
+}
+
+div .Auguste img{
+    width: 170px;
+    height: 170px;
+    margin-top: 40px;
+    margin-left: -15px;
+}
+
+div .Auguste h1{
+    margin-top: -200px;
+    text-align: center;
+}
+
+    div .Auguste p{
+    margin-left: 130px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+div.giovanni{
+    height: 250px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #802f11d7;
+}
+
+div .giovanni img{
+    width: 170px;
+    height: 170px;
+    margin-top: 40px;
+    margin-left: -15px;
+}
+
+div .giovanni h1{
+    margin-top: -200px;
+    text-align: center;
+}
+
+div .giovanni p{
+    margin-left: 130px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+div.pok-p{
+    height: 300px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #4e4e4e;
+}
+
+div.pok-o{
+    height: 300px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #053fff;
+}
+
+div.pok-t{
+    height: 300px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #fcd701;
+}
+
+div.pok-e{
+    height: 300;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #12b60f;
+}
+
+div.pok-k{
+    height: 300px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #820b94;
+}
+
+div.pok-m{
+    height: 300px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #dc027a;
+}
+
+div.pok-a{
+    height: 300px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #f8511e;
+}
+
+div.pok-g{
+    height:300px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #802f11d7;
+}
+
+div.pok img{
+    width: 190px;
+    height: 190px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#modelos .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+#modelos .container ul {
+    margin-bottom: 30px;
+}
+
+#fotos .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+#fotos .container img {
+    width: 100%;
+    transition: all 0.2s linear;
+}
+
+div.gi-p{
+    height: 270px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #4e4e4e;
+}
+
+div.gi-p .gp-f{
+    position: relative;
+    height: 250px;
+    top: 10px;
+    left: 10px;
+
+}
+
+div.gi-p p{
+    margin-left: 230px;
+    margin-top: -200px;
+    font-size: 20px;
+}
+
+div.gi-o{
+    height: 270px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #2256ff;
+}
+
+div.gi-o .go-f{
+    position: relative;
+    height: 250px;
+    top: 10px;
+    left: 10px;    
+}
+
+div.gi-o p{
+    margin-left: 230px;
+    margin-top: -200px;
+    font-size: 20px;
+}
+
+div.gi-t{
+    height: 270px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #fcd701;
+}
+
+div.gi-t .gt-f{
+    position: relative;
+    height: 250px;
+    top: 10px;
+    left: 10px;
+    border: 5px solid var(--color-2);
+}
+
+div.gi-t p{
+    margin-left: 230px;
+    margin-top: -200px;
+    font-size: 20px;
+}
+
+div.gi-e{
+    height: 270px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #12b60f;
+}
+
+div.gi-e .ge-f{
+    position: relative;
+    height: 250px;
+    top: 10px;
+    left: 10px;
+    border: 5px solid var(--color-2);
+}
+
+div.gi-e p{
+    margin-left: 230px;
+    margin-top: -200px;
+    font-size: 20x;
+}
+
+div.gi-k{
+    height: 270px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #920ba7;
+}
+
+div.gi-k .gk-f{
+    position: relative;
+    height: 250px;
+    top: 10px;
+    left: 10px;
+    border: 5px solid var(--color-2);
+}
+
+div.gi-k p{
+    margin-left: 230px;
+    margin-top: -200px;
+    font-size: 20px;
+}
+
+div.gi-m{
+    height: 270px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #dc027a;
+}
+
+div.gi-m .gm-f{
+    position: relative;
+    height: 200px;
+    top: 40px;
+    left: 10px;
+    border: 5px solid var(--color-2);
+}
+
+div.gi-m p{
+    margin-left: 300px;
+    margin-top: -170px;
+    font-size: 20px;
+}
+
+div.gi-b{
+    height: 270px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #f8511e;
+}
+
+div.gi-b .gb-f{
+    position: relative;
+    height: 200px;
+    top: 30px;
+    left: 10px;
+    border: 5px solid var(--color-2);
+}
+
+div.gi-b p{
+    margin-left: 350px;
+    margin-top: -150px;
+    font-size: 20px;
+}
+
+div.gi-g{
+    height: 270px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 80px;
+    background-color: #802f11d7;
+}
+
+div.gi-g .gg-f{
+    position: relative;
+    height: 230px;
+    top: 20px;
+    left: 10px;
+    border: 5px solid var(--color-2);
+}
+
+div.gi-g p{
+    margin-left: 230px;
+    margin-top: -200px;
+    font-size: 20px;
+}
+
+div.criador{
+    height: 550px;
+    border: 1px solid var(--color-2);
+    border-radius: 20px;
+    margin: 200px;
+    background-color: #424143;
+}
+
+div img.cri-i{
+    position: relative;
+    height: 500px;
+    top: 20px;
+    left: 30px;
+    border: 5px solid var(--color-2);
+}
+
+.criador h1{
+    margin-top: -480px;
+    text-align: center;
+    margin-left: -100px;
+}
+
+div.criador p{
+    margin-left: 450px;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
